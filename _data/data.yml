@@ -67,14 +67,14 @@ experiences:
         Under construction
           - Bullet point
           - Bullet point
-projects:
-    title: # Projects
-    intro: >
-      Under construction
-    assignments:
-      - title: # Velocity
-        link: "#hook"
-        tagline: # "A responsive website template designed to help startups promote, market and sell their products."
+# projects:
+#     title: # Projects
+#     intro: >
+#       Under construction
+#     assignments:
+#       - title: # Velocity
+#         link: "#hook"
+#         tagline: # "A responsive website template designed to help startups promote, market and sell their products."
 
 publications:
     title: Publications
