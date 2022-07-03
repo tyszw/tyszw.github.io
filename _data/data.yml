@@ -12,7 +12,7 @@ sidebar:
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
+    email: w225435a[at]yokohama-cu.ac.jp
     phone: # 012 345 6789
     timezone: # America/Cancun Timezone
     citizenship:
@@ -29,7 +29,7 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: # http://www.africau.edu/images/default/sample.pdf
     
-    languages:
+    # languages:
       - idiom: English
         level: Native
 
@@ -39,7 +39,7 @@ sidebar:
       - idiom: Spanish
         level: Professional
 
-    interests:
+    # interests:
       - item: Climbing
         link:
 
@@ -53,6 +53,7 @@ career-profile:
     title: Under construction
     summary: |
       Under construction
+      
 education:
     - degree: #MSc in Computer Science
       university: # University of London
@@ -90,7 +91,7 @@ experiences:
         Under construction
           - Bullet point
           - Bullet point
-projects:
+# projects:
     title: Projects
     intro: >
       You can list your side projects or open source libraries in this
@@ -119,27 +120,17 @@ projects:
 
 publications:
     title: Publications
-    intro: |
+    # intro: |
       You can list your publications in this section. Lorem ipsum dolor sit
       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
       bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Selective Inhibitor Design for Kinase Homologs Using Multiobjective Monte Carlo Tree Search
+        link: "https://chemrxiv.org/engage/chemrxiv/article-details/62b070201672a2935c456a41"
+        authors: T. Yoshizawa, S. Ishida, T. Sato, M. Ohta, T. Honma, K. Terayama
+        conference: ChemRxiv, 2022.
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
+# skills:
     title: Skills &amp; Proficiency
 
     toolset:
