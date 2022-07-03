@@ -15,8 +15,8 @@
     {{ publications.intro | markdownify }}
   </div><!--//intro-->
   {% endif %}
-
-  {% for publication in publications.papers %}
+  
+    <!-- {% for publication in publications.papers %}
   <div class="item">
     {% if publication.link %}
       <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
@@ -25,8 +25,13 @@
     {% endif %}
     <div class="publication-authors">{{ publication.authors }}</div>
     <div class="publication-conference">{{ publication.conference }}</div>
-  </div><!--//item-->
-  {% endfor %}
+  </div>//item
+  {% endfor %} -->
+  <div class="item">
+    <li>
+      <b><u>T. Yoshizawa</u></b>, S. Ishida, T. Sato, M. Ohta, T. Honma, K. Terayama, <a href="https://chemrxiv.org/engage/chemrxiv/article-details/62b070201672a2935c456a41" target="_blank"><b>Selective Inhibitor Design for Kinase Homologs Using Multiobjective Monte Carlo Tree Search</b></a>, ChemRxiv, 2022
+    </li>
+  </div> 
 
 </section><!--//section-->
 {% endif %}
