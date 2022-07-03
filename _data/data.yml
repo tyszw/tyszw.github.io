@@ -3,8 +3,8 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Alan Doe
@@ -29,24 +29,12 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: # http://www.africau.edu/images/default/sample.pdf
     
-    # languages:
-      - idiom: English
-        level: Native
+    languages:
+      - idiom: # English
+        level: # Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
-
-    # interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
+    interests:
+      - item: # Climbing
         link:
 
 career-profile:
@@ -56,7 +44,7 @@ career-profile:
       
 education:
     - degree: #MSc in Computer Science
-      university: # University of London
+      university: Yokohama City University
       time: # 2011 - 2012
       details: |
         Under construction
@@ -91,66 +79,46 @@ experiences:
         Under construction
           - Bullet point
           - Bullet point
-# projects:
-    title: Projects
+projects:
+    title: # Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Under construction
     assignments:
-      - title: Velocity
+      - title: # Velocity
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: # "A responsive website template designed to help startups promote, market and sell their products."
 
 publications:
     title: Publications
-    # intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    intro: |
+      Under construction
     papers:
       - title: Selective Inhibitor Design for Kinase Homologs Using Multiobjective Monte Carlo Tree Search
         link: "https://chemrxiv.org/engage/chemrxiv/article-details/62b070201672a2935c456a41"
         authors: T. Yoshizawa, S. Ishida, T. Sato, M. Ohta, T. Honma, K. Terayama
         conference: ChemRxiv, 2022.
 
-# skills:
-    title: Skills &amp; Proficiency
+skills:
+    title: # Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: # Python & Django
+        level: # 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: # Javascript & jQuery
+        level: # 98%
 
-      - name: Angular
-        level: 98%
+      - name: # Angular
+        level: # 98%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: # HTML5 & CSS
+        level: # 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: # Ruby on Rails
+        level: # 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: # Sketch & Photoshop
+        level: # 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
