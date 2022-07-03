@@ -28,14 +28,6 @@ sidebar:
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: # http://www.africau.edu/images/default/sample.pdf
-    
-    languages:
-      - idiom: # English
-        level: # Native
-
-    interests:
-      - item: # Climbing
-        link:
 
 career-profile:
     title: About
