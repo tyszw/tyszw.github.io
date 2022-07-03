@@ -38,18 +38,18 @@ sidebar:
         link:
 
 career-profile:
-    title: Under construction
+    title: About
     summary: |
       Under construction
       
 education:
-    - degree: 国際総合科学部　国際総合科学科　理学系
-      university: 横浜市立大学
+    - degree: 横浜市立大学 国際総合科学部　国際総合科学科　理学系
+      university: 
       time: 2018 - 2022
       details: |
 
-    - degree: 生命医科学研究科　生命医科学専攻
-      university: 横浜市立大学
+    - degree: 横浜市立大学 生命医科学研究科　生命医科学専攻
+      university: 
       time: 2022 - 
       details: |
 
