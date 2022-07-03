@@ -43,20 +43,16 @@ career-profile:
       Under construction
       
 education:
-    - degree: #MSc in Computer Science
-      university: Yokohama City University
-      time: # 2011 - 2012
+    - degree: 国際総合科学部　国際総合科学科　理学系
+      university: 横浜市立大学
+      time: 2018 - 2022
       details: |
-        Under construction
-          - Bullet point
-          - Bullet point
-    - degree: # BSc in Applied Mathematics
-      university: # Bristol University
-      time: # 2007 - 2011
+
+    - degree: 生命医科学研究科　生命医科学専攻
+      university: 横浜市立大学
+      time: 2022 - 
       details: |
-        Under construction
-          - Bullet point
-          - Bullet point
+
 experiences:
     - role: # Lead Developer
       time: # 2015 - Present
@@ -91,7 +87,6 @@ projects:
 publications:
     title: Publications
     intro: |
-      Under construction
     papers:
       - title: Selective Inhibitor Design for Kinase Homologs Using Multiobjective Monte Carlo Tree Search
         link: "https://chemrxiv.org/engage/chemrxiv/article-details/62b070201672a2935c456a41"
