@@ -15,8 +15,8 @@
     {{ conferences.intro | markdownify }}
   </div><!--//intro-->
   {% endif %}
-
-  {% for conference in conferences.papers %}
+  
+    <!-- {% for conference in conferences.papers %}
   <div class="item">
     <li>{{ conference.title }}</li>
     <div class="conference-authors">{{ conference.authors }}</div>
@@ -27,8 +27,14 @@
         {{ conference.conference }}
       {% endif %}
     </div>
-  </div><!--//item-->
-  {% endfor %}
+  </div>//item
+  {% endfor %} -->
+
+  <div class="item">
+    <li>
+      <b><u>吉澤竜哉</u></b>, 石田祥一, 佐藤朋広, 寺山慧; <b>『Dscoreに基づく多目的最適化によるChemTSを用いた選択的阻害剤の設計』</b>; <a href="https://www.phar.kindai.ac.jp/qsar2021/index.html" target="_blank">第49回構造活性相関シンポジウム</a>, 2021/11/18
+    </li>
+  </div>
 
 </section><!--//section-->
 {% endif %}
