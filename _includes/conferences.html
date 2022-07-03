@@ -19,7 +19,7 @@
   {% for conference in conferences.papers %}
   <div class="item">
     {% if conference.link %}
-      <li><a href="{{ conference.link }}">{{ conference.title }}</a></li>
+      <li><a href="{{ conference.link }}">{{ conference.conference }}</a></li>
     {% else %}
       <li>{{ conference.title }}</li>
     {% endif %}
