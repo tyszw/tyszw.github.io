@@ -18,13 +18,15 @@
 
   {% for conference in conferences.papers %}
   <div class="item">
-    {% if conference.link %}
-      <li><a href="{{ conference.link }}">{{ conference.conference }}</a></li>
-    {% else %}
-      <li>{{ conference.title }}</li>
-    {% endif %}
+    <li>{{ conference.title }}</li>
     <div class="conference-authors">{{ conference.authors }}</div>
-    <div class="conference-conference">{{ conference.conference }}</div>
+    <div class="conference-conference">
+      {% if conference.link %}
+        <a href="{{ conference.link }}">{{ conference.conference }}</a>
+      {% else %}
+        {{ conference.conference }}
+      {% endif %}
+    </div>
   </div><!--//item-->
   {% endfor %}
 
