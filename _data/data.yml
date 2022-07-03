@@ -29,7 +29,6 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: # http://www.africau.edu/images/default/sample.pdf
     
-    """
     languages:
       - idiom: English
         level: Native
@@ -49,7 +48,6 @@ sidebar:
 
       - item: Cooking
         link:
-    """
 
 career-profile:
     title: Under construction
