@@ -85,6 +85,15 @@ publications:
         authors: T. Yoshizawa, S. Ishida, T. Sato, M. Ohta, T. Honma, K. Terayama
         conference: ChemRxiv, 2022.
 
+conferences:
+    title: Conferences
+    intro: |
+    papers:
+      - title: Dscore に基づく多目的最適化による ChemTS を用いた選択的阻害剤の設計
+        link: "https://www.phar.kindai.ac.jp/qsar2021/index.html"
+        authors: 吉澤竜哉、石田祥一、佐藤朋広、寺山慧
+        conference: 第49回構造活性相関シンポジウム（2021/11/18）
+
 skills:
     title: # Skills &amp; Proficiency
 
