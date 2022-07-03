@@ -13,22 +13,23 @@ sidebar:
 
     # Sidebar links
     email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    phone: # 012 345 6789
+    timezone: # America/Cancun Timezone
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    website: # blog.webjeda.com #do not add http://
+    linkedin: # alandoe
+    xing: # alandoe
+    github: tyszw
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: # '@webjeda'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
-
+    pdf: # http://www.africau.edu/images/default/sample.pdf
+    
+    """
     languages:
       - idiom: English
         level: Native
@@ -48,6 +49,7 @@ sidebar:
 
       - item: Cooking
         link:
+    """
 
 career-profile:
     title: Career Profile
