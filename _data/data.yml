@@ -51,22 +51,7 @@ experiences:
       company: # Startup Hubs, San Francisco
       details: |
         Under construction
-          - Bullet point
-          - Bullet point
-    - role: # Senior Software Engineer
-      time: # 2014 - 2015
-      company: # Google, London
-      details: |
-        Under construction
-          - Bullet point
-          - Bullet point
-    - role: # UI Developer
-      time: # 2012 - 2014
-      company:  # Amazon, London
-      details: |
-        Under construction
-          - Bullet point
-          - Bullet point
+
 # projects:
 #     title: # Projects
 #     intro: >
