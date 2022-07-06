@@ -1,0 +1,39 @@
+{% assign developments = site.data.data.developments %}
+{% if developments %}
+<section class="section developments-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <!-- <i class="fas fa-archive fa-stack-1x fa-inverse"></i> -->
+      <i class="fa-solid fa-laptop-code fa-inverse"></i>
+    </span>
+    {{ developments.title }}
+  </h2>
+
+  {% if developments.intro %}
+  <div class="intro">
+      <p>{{ developments.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for development in developments.assignments %}
+    <div class="item">
+
+      <span class="development-title">
+        {% if development.link %}
+        <a href="{{ development.link }}" target="_blank">{{ development.title }}</a>
+        {% else %}
+        {{ development.title }}
+        {% endif %}
+      </span>
+
+      {% if development.tagline %}
+      - <span class="development-tagline">{{ development.tagline }}</span>
+      {% endif %}
+
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
