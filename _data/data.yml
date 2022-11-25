@@ -31,8 +31,7 @@ sidebar:
 
 career-profile:
     title: About
-    summary: |
-      Under construction
+    summary: 
       
 education:
     - degree: 横浜市立大学 国際総合科学部 国際総合科学科 理学系
@@ -42,7 +41,7 @@ education:
 
     - degree: 横浜市立大学 生命医科学研究科 生命医科学専攻
       university: 
-      time: 2022年4月 - 現在
+      time: 2022年4月 - 現在(2024年3月修了見込み)
       details: |
 
 experiences:
