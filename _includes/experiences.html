@@ -9,47 +9,6 @@
     Experiences
   </h2>
 
-<style>/*
-  {% for experience in experiences %}
-  <div class="item">
-
-    <div class="meta">
-
-      <div class="upper-row">
-        <h3 class="job-title">{{ experience.role }}</h3>
-        <div class="time">{{ experience.time }}</div>
-      </div><!--//upper-row-->
-
-      <div class="company">{{ experience.company }}</div>
-
-    </div><!--//meta-->
-
-    {% if experience.details %}
-    <div class="details">
-      {{ experience.details | markdownify }}
-    </div><!--//details-->
-    {% endif %}
-
-  </div>//item
-  {% endfor %}
-
-
-# 20221125
-  <div class="meta">
-    <div class="upper-row">
-      <h4 class="job-title">分子構造生成AIを用いた分子の性質の多目的最適化</h4>
-    </div><!--//upper-row-->
-  </div><!--//meta-->
-  <div class="details">
-    <p>
-      分子構造生成AI*を用いて、多数の性質が同時に最適化された分子を設計しました。
-      本研究の内容は、<a href="https://doi.org/10.1021/acs.jcim.2c00787" target="_blank"><i>Journal of Chemical Information and Modeling</i></a>誌に掲載されました。
-      また、<a href="http://www.tsurumi.yokohama-cu.ac.jp/news/20221124yoshizawa.html" target="_blank">大学のHP</a>にも掲載していただきました。<br></p>
-    </p>*) 分子構造生成AI: 望ましい性質を持つ新規な化合物の構造を仮想的に生成するAI</p>
-    
-  </div><!--//details-->
-*/</style>
-
 <h4 class="category">研究活動</h4>
 <div class="item">
   <ul>
@@ -59,9 +18,17 @@
         本研究の内容は、<a href="https://doi.org/10.1021/acs.jcim.2c00787" target="_blank"><i>Journal of Chemical Information and Modeling</i></a>誌に掲載されました。
         また、<a href="http://www.tsurumi.yokohama-cu.ac.jp/news/20221124yoshizawa.html" target="_blank">大学のHP</a>にも掲載していただきました。<br>
         *) 分子構造生成AI: 望ましい性質を持つ新規な化合物の構造を仮想的に生成するAI</p>
+    <li><h4 class="job-title">分子構造生成AIの開発</h4></li>
+      <p>
+        所属研究室で開発されている分子構造生成AIの機能拡張を行いました。所属研究室では、Monte-Carlo Tree Search(強化学習の1種)とRecurrent Neural Network(深層学習の1種)で構成される構造生成AI、ChemTSv2を開発しています。
+        私はChemTSv2を多目的最適化に適用させるための機能を実装しました。
+        本手法のソースコードは<a href="https://github.com/molecule-generator-collection/ChemTSv2" target="_blank">GitHub</a>にて公開されています。
+    <li><h4 class="job-title">分子の性質を予測する機械学習モデルの実装</h4></li>
+      <p>分子の薬としての効き具合や物性を予測する機械学習モデルを実装しました。ソースコードは<a href="https://github.com/ycu-iil/prediction_model_collection" target="_blank">GitHub</a>にて公開されています。
   </ul>
 
-<!-- <h3 class="category">その他の活動</h3> -->
+<h4 class="category">研究活動</h4>
+  Under construction...
 
 </div><!--//item-->
 </section><!--//section-->
