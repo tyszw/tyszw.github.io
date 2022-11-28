@@ -45,7 +45,7 @@ education:
       details: |
 
 experiences:
-    - role: # Lead Developer
+    - role: 分子構造生成AIを用いた分子の性質の多目的最適化
       time: # 2015 - Present
       company: # Startup Hubs, San Francisco
       details: |
