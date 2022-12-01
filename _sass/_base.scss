@@ -41,6 +41,11 @@ p {
   line-height: 1.5;
 }
 
+ul li {
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
