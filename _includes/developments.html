@@ -22,7 +22,7 @@
 
       <span class="development-title">
         {% if development.link %}
-        <a href="{{ development.link }}" target="_blank">{{ development.title }}</a>
+        <a href="{{ development.link }}" target="_blank" rel="noopener noreferrer">{{ development.title }}</a>
         {% else %}
         {{ development.title }}
         {% endif %}
