@@ -7,23 +7,32 @@
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
     </span>
-    PROJECTS
+    {{ projects.title }}
   </h2>
 
-  <div class="item">
-    <ul>
-      <li><h3 class="job-title">分子構造生成AIを用いた分子特性の多目的最適化</h3></li>
-        <p>
-          分子構造生成AI*を用いて、多数の性質が同時に最適化された分子の設計を実施しました。
-          本研究の内容は、筆頭著者として<a href="https://doi.org/10.1021/acs.jcim.2c00787" target="_blank" rel="noopener noreferrer"><i>Journal of Chemical Information and Modeling</i></a>誌に掲載されました。
-          また、<a href="http://www.tsurumi.yokohama-cu.ac.jp/news/20221124yoshizawa.html" target="_blank" rel="noopener noreferrer">大学のHP</a>で紹介されました。<br>
-          *) 分子構造生成AI: 望ましい性質を持つ新規な化合物の構造を仮想的に生成するAI</p>
-      <li><h3 class="job-title">分子構造生成AIの開発</h3></li>
-        <p>
-          所属研究室で開発されている分子構造生成AIの機能拡張を行いました。私は本手法を医薬品設計における多目的最適化に適用させるための機能を実装しました。
-          本手法のソースコードは<a href="https://github.com/molecule-generator-collection/ChemTSv2" target="_blank" rel="noopener noreferrer">GitHub</a>にて公開されています。
-    </ul>
-  </div><!--//item-->
+  {% if projects.intro %}
+  <div class="intro">
+      <p>{{ projects.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for project in projects.assignments %}
+    <div class="item">
+
+      <span class="project-title">
+        {% if project.link %}
+        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+        {% else %}
+        {{ project.title }}
+        {% endif %}
+      </span>
+
+      {% if project.tagline %}
+      - <span class="project-tagline">{{ project.tagline }}</span>
+      {% endif %}
+
+    </div><!--//item-->
+  {% endfor %}
 
 </section><!--//section-->
-<!-- {% endif %} -->
+{% endif %}
