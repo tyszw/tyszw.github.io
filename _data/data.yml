@@ -34,9 +34,13 @@ career-profile:
     summary: 
       
 education:
+    - degree: 横浜市立大学 生命医科学研究科 生命医科学専攻 博士後期課程
+      university: 
+      time: 2024年4月 - 現在
+      details: |
     - degree: 横浜市立大学 生命医科学研究科 生命医科学専攻 博士前期課程
       university: 
-      time: 2022年4月 - 現在
+      time: 2022年4月 - 2024年3月
       details: |
     - degree: 横浜市立大学 国際総合科学部 国際総合科学科 理学系
       university: 
