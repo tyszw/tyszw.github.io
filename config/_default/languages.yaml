@@ -3,6 +3,11 @@
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
 # Default language
+ja: # Japanese
+  languageCode: ja
+  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  #contentDir: content/ja
+
 en:
   languageCode: en-us
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
