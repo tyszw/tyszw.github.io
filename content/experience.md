@@ -28,8 +28,12 @@ sections:
     content:
       title: Awards
       username: admin
-  - block: resume-languages
+  # - block: resume-languages
+  #   content:
+  #     title: Languages
+  #     username: admin
+  - block: resume-certification
     content:
-      title: Languages
-      username: admin
+    title: Certification
+    username: admin
 ---
