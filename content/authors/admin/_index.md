@@ -30,7 +30,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:w245515e@yokohama-cu.ac.jp'
+    url: 'mailto:tatsuya.yoshizawa@riken.jp'
     label: E-mail Me
   # - icon: brands/x
   #   url: https://twitter.com/GetResearchDev
