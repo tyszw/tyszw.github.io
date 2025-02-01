@@ -33,12 +33,18 @@ jobs:
         hugo-version: ${{ env.WC_HUGO_VERSION }}
         extended: true
 
-    - uses: actions/cache@v3
+    # - uses: actions/cache@v3
+    #   with:
+    #     path: /tmp/hugo_cache_runner/
+    #     key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
+    #     restore-keys: |
+    #       ${{ runner.os }}-hugomod-
+    - name: Clear old cache
+      uses: actions/cache@v3
       with:
         path: /tmp/hugo_cache_runner/
-        key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
-        restore-keys: |
-          ${{ runner.os }}-hugomod-
+        key: clear-cache-${{ github.run_id }}
+
 
     - name: Setup Pages
       id: pages
@@ -55,7 +61,8 @@ jobs:
       run: npx pagefind --site "public"
 
     - name: Upload artifact for GitHub Pages
-      uses: actions/upload-pages-artifact@v2  # ✅ 修正済み
+      # uses: actions/upload-pages-artifact@v2
+      uses: actions/upload-artifact@v4  # ✅ 修正済み
       with:
         path: ./public
 
