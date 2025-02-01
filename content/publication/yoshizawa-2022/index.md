@@ -12,7 +12,7 @@ publishDate: '2025-02-01T05:35:48.338683Z'
 publication_types:
 - article-journal
 publication: '*Journal of Chemical Information and Modeling*, 62(22), 5351–5360'
-doi: 10.1021/acs.jcim.2c00787
+# doi: 10.1021/acs.jcim.2c00787
 links:
 - name: URL
   url: http://dx.doi.org/10.1021/acs.jcim.2c00787
