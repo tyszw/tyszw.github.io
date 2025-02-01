@@ -1,6 +1,5 @@
 ---
-title: Selective Inhibitor Design for Kinase Homologs Using Multiobjective Monte Carlo
-  Tree Search
+title: Selective Inhibitor Design for Kinase Homologs Using Multiobjective Monte Carlo Tree Search
 authors:
 - Tatsuya Yoshizawa
 - Shoichi Ishida
