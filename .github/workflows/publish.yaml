@@ -70,12 +70,27 @@ jobs:
     - name: Debug - List contents of public   # added for debug
       run: ls -lah public/
 
-    - name: Remove `_headers` and `_redirects`   # 悪さをするらしい
+    - name: Rename non-ASCII filenames
       run: |
-        rm -f public/_headers public/_redirects
+        find public/ -depth -name "*[! -~]*" | while read file; do
+          newfile=$(echo "$file" | iconv -f UTF-8 -t ASCII//TRANSLIT | tr -d '?')
+          mv "$file" "$newfile"
+        done
+
+    - name: Remove .git directory from public
+      run: rm -rf public/.git
+
+    - name: Check for symlinks before deletion
+      run: |
+        echo "🔍 Checking for symlinks in public/ directory..."
+        find public/ -type l -exec ls -lah {} \; || echo "✅ No symlinks found"
 
     - name: Remove symlinks
       run: find public/ -type l -delete
+
+    - name: Remove `_headers` and `_redirects`   # 悪さをするらしい
+      run: |
+        rm -f public/_headers public/_redirects
 
     - name: Check for large files
       run: du -ah public/ | sort -rh | head -20
