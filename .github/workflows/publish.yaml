@@ -60,6 +60,16 @@ jobs:
         echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
         hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
+    - name: Check if public directory exists   # added for debug
+      run: |
+        if [ ! -d "public" ]; then
+          echo "❌ public/ directory does not exist. Hugo build failed!"
+          exit 1
+        fi
+
+    - name: Debug: List contents of public   # added for debug
+      run: ls -lah public/
+
     - name: Generate Pagefind search index
       run: npx pagefind --site "public"
 
