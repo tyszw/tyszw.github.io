@@ -88,6 +88,16 @@ jobs:
     - name: Remove symlinks
       run: find public/ -type l -delete
 
+    - name: Check for hard links before deployment
+      run: |
+        echo "🔍 Checking for hard links in public/ directory..."
+        find public/ -type f -links +1 -exec ls -lah {} \; || echo "✅ No hard links found"
+
+    - name: Remove hard links before deployment
+      run: |
+        echo "🗑 Removing hard links..."
+        find public/ -type f -links +1 -exec cp --remove-destination {} {}_tmp \; -exec mv {}_tmp {} \;
+
     - name: Remove `_headers` and `_redirects`   # 悪さをするらしい
       run: |
         rm -f public/_headers public/_redirects
@@ -97,6 +107,13 @@ jobs:
 
     - name: Debug - List contents of public   # added for debug
       run: ls -lah public/
+
+    - name: Validate artifact integrity
+      run: |
+        echo "🔍 Checking artifact integrity..."
+        tar -cf public.tar public/
+        tar -xf public.tar -C extracted/
+        diff -qr public/ extracted/public/ || echo "✅ No differences found in artifact integrity check"
 
 
     - name: Generate Pagefind search index
