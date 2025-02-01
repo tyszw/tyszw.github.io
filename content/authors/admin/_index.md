@@ -153,7 +153,7 @@ skills:
         icon: chart-bar
       - name: SQL
         description: ''
-        percent:25
+        percent: 25
         icon: circle-stack
   - name: Hobbies
     color: '#eeac02'
