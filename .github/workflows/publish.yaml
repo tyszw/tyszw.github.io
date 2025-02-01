@@ -70,12 +70,12 @@ jobs:
     - name: Debug - List contents of public   # added for debug
       run: ls -lah public/
 
-    - name: Rename non-ASCII filenames
-      run: |
-        find public/ -depth -name "*[! -~]*" | while read file; do
-          newfile=$(echo "$file" | iconv -f UTF-8 -t ASCII//TRANSLIT | tr -d '?')
-          mv "$file" "$newfile"
-        done
+    # - name: Rename non-ASCII filenames
+    #   run: |
+    #     find public/ -depth -name "*[! -~]*" | while read file; do
+    #       newfile=$(echo "$file" | iconv -f UTF-8 -t ASCII//TRANSLIT | tr -d '?')
+    #       mv "$file" "$newfile"
+    #     done
 
     - name: Remove .git directory from public
       run: rm -rf public/.git
