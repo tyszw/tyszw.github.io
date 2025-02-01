@@ -34,6 +34,6 @@ sections:
   #     username: admin
   - block: resume-certification
     content:
-    title: Certification
-    username: admin
+      username: admin
+      title: Certification
 ---
