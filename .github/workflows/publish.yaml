@@ -67,7 +67,7 @@ jobs:
           exit 1
         fi
 
-    - name: Debug: List contents of public   # added for debug
+    - name: Debug - List contents of public   # added for debug
       run: ls -lah public/
 
     - name: Generate Pagefind search index
