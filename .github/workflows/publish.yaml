@@ -70,6 +70,20 @@ jobs:
     - name: Debug - List contents of public   # added for debug
       run: ls -lah public/
 
+    - name: Remove `_headers` and `_redirects`   # 悪さをするらしい
+      run: |
+        rm -f public/_headers public/_redirects
+
+    - name: Remove symlinks
+      run: find public/ -type l -delete
+
+    - name: Check for large files
+      run: du -ah public/ | sort -rh | head -20
+
+    - name: Debug - List contents of public   # added for debug
+      run: ls -lah public/
+
+
     - name: Generate Pagefind search index
       run: npx pagefind --site "public"
 
