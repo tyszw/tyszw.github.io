@@ -37,14 +37,10 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Under cpnstruction
-        # Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        # I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        # Please reach out to collaborate 😃
+        Under construction😌
     design:
       columns: '1'
+  
   # - block: collection
   #   id: papers
   #   content:
@@ -111,7 +107,7 @@ sections:
         padding: [0, 0, 0, 0]
     
   - block: cta-card
-    demo: false #true # Only display this section in the Hugo Blox Builder demo site
+    demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
       title: 👉 Build your own academic website like this
       text: |-
