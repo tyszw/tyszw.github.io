@@ -15,7 +15,7 @@ publication: '*Journal of Chemical Information and Modeling*, 62(22), 5351–536
 # doi: 10.1021/acs.jcim.2c00787
 links:
 - name: DOI
-  url: 10.1021/acs.jcim.2c00787
+  url: https://pubs.acs.org/doi/10.1021/acs.jcim.2c00787
 - name: 解説・コメント
   url: https://www.tsurumi.yokohama-cu.ac.jp/news/20221124yoshizawa.html
 

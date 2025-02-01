@@ -17,7 +17,7 @@ publication: '*WIREs Computational Molecular Science*, 13, e1680'
 # doi: 10.1002/wcms.1680
 links:
 - name: DOI
-  url: 10.1002/wcms.1680
+  url: https://wires.onlinelibrary.wiley.com/doi/full/10.1002/wcms.1680
 - name: プレスリリース
   url: https://www.yokohama-cu.ac.jp/news/2023/20230818terayama.html
 
