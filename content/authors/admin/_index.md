@@ -54,17 +54,17 @@ interests:
 
 education:
   - area: 生命医科学研究科 博士後期課程
-      institution: 横浜市立大学
-      date_start: 2024-04-01
-      date_end: ''
-- area: 生命医科学研究科 博士前期課程
-      institution: 横浜市立大学
-      date_start: 2022-04-01
-      date_end: 2024-3-31
+    institution: 横浜市立大学
+    date_start: 2024-04-01
+    date_end: ''
+  - area: 生命医科学研究科 博士前期課程
+    institution: 横浜市立大学
+    date_start: 2022-04-01
+    date_end: 2024-3-31
   - area: 国際総合科学部
-      institution: 横浜市立大学
-      date_start: 2013-04-01
-      date_end: 2022-3-31
+    institution: 横浜市立大学
+    date_start: 2013-04-01
+    date_end: 2022-3-31
   # - area: PhD Artificial Intelligence
   #   institution: Stanford University
   #   date_start: 2016-01-01
