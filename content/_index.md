@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: "Tatsuya Yoshizawa"
-date: 2025-2-1
+date: 2025-02-01
 type: landing
 
 design:
