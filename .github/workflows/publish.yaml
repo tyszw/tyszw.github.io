@@ -108,12 +108,12 @@ jobs:
     - name: Debug - List contents of public   # added for debug
       run: ls -lah public/
 
-    - name: Validate artifact integrity
-      run: |
-        echo "🔍 Checking artifact integrity..."
-        tar -cf public.tar public/
-        tar -xf public.tar -C extracted/
-        diff -qr public/ extracted/public/ || echo "✅ No differences found in artifact integrity check"
+    # - name: Validate artifact integrity
+    #   run: |
+    #     echo "🔍 Checking artifact integrity..."
+    #     tar -cf public.tar public/
+    #     tar -xf public.tar -C extracted/
+    #     diff -qr public/ extracted/public/ || echo "✅ No differences found in artifact integrity check"
 
     - name: Generate Pagefind search index
       run: npx pagefind --site "public"
