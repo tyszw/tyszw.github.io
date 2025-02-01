@@ -1,7 +1,7 @@
 ---
 title: '強化学習に基づく分子生成手法を用いたキナーゼ選択的阻害剤の設計'
 authors:
-- 吉澤竜哉
+- **吉澤竜哉**
 - 石田祥一
 - 佐藤朋広
 - 大田雅照
@@ -16,8 +16,6 @@ publication: '第50回構造活性相関シンポジウム'
 # - name: URL
 #   url: http://dx.doi.org/10.26434/chemrxiv-2024-dh681
 ---
-
-
 
 <!-- ---
 title: Example Talk
