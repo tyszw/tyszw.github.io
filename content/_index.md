@@ -54,8 +54,8 @@ sections:
   #     columns: 2
 
   - block: collection
+    id: publications
     content:
-      id: publications   # メニューバーとリンク
       title: Publications
       text: ""
       filters:
