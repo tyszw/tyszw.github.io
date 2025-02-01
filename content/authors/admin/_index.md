@@ -20,19 +20,17 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PhD student
+role: PhD student / Jr. Research Associate
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: 横浜市立大学
-    url: https://www.yokohama-cu.ac.jp/
-  - name: 理化学研究所
+  - name: 横浜市立大学 / 理化学研究所
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'w245515e@yokohama-cu.ac.jp'
+    url: 'mailto:w245515e@yokohama-cu.ac.jp'
     label: E-mail Me
   # - icon: brands/x
   #   url: https://twitter.com/GetResearchDev
@@ -54,15 +52,15 @@ interests:
 
 education:
   - area: 生命医科学研究科 博士後期課程
-    institution: 横浜市立大学
+    institution: 横浜市立大学｜2024/4 - 現在
     date_start: 2024-04-01
     date_end: ''
   - area: 生命医科学研究科 博士前期課程
-    institution: 横浜市立大学
+    institution: 横浜市立大学｜2022/4 - 2024/3
     date_start: 2022-04-01
     date_end: 2024-03-31
   - area: 国際総合科学部
-    institution: 横浜市立大学
+    institution: 横浜市立大学｜2018/4 - 2022/3
     date_start: 2018-04-01
     date_end: 2022-03-31
   # - area: PhD Artificial Intelligence
