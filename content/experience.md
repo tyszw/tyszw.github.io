@@ -32,8 +32,8 @@ sections:
   #   content:
   #     title: Languages
   #     username: admin
-  - block: resume-certification
-    content:
-      username: admin
-      title: Certification
+  # - block: resume-certification
+  #   content:
+  #     username: admin
+  #     title: Certification
 ---
