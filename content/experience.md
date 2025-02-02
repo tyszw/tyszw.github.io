@@ -38,10 +38,19 @@ sections:
   #     title: Certification
   - block: markdown
     content:
-      title: 'Certification'
+      title: 'Certifications'
       subtitle: ''
       text: |-
-        - 2024年12月, 応用情報技術者試験, 独立行政法人情報処理推進機構 (IPA)
+        - 2022年12月, 基本情報技術者試験 合格, 独立行政法人情報処理推進機構 (IPA)
+        - 2024年12月, 応用情報技術者試験 合格, 独立行政法人情報処理推進機構 (IPA)
+    design:
+      columns: '1'
+  - block: markdown
+    content:
+      title: 'Scholarships'
+      subtitle: ''
+      text: |-
+        - 2024年4月 ~ 2025年3月, 公益財団法人 中外創薬科学財団 奨学金
     design:
       columns: '1'
 ---
