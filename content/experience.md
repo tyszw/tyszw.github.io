@@ -36,4 +36,12 @@ sections:
   #   content:
   #     username: admin
   #     title: Certification
+  - block: markdown
+    content:
+      title: 'Certification'
+      subtitle: ''
+      text: |-
+        - 2024年12月, 応用情報技術者試験, 独立行政法人情報処理推進機構 (IPA)
+    design:
+      columns: '1'
 ---
