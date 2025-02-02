@@ -48,7 +48,7 @@ profiles:
 interests:
   - ケモインフォマティクス
   - 人工知能
-  - 創薬
+  - インシリコ創薬
 
 education:
   - area: 生命医科学研究科 博士後期課程
