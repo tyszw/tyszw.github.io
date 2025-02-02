@@ -50,7 +50,7 @@ sections:
       title: 'Scholarships'
       subtitle: ''
       text: |-
-        - 2024年4月 ~ 2025年3月, 公益財団法人 中外創薬科学財団 奨学金
+        - 2024年4月-2025年3月, 公益財団法人 中外創薬科学財団 奨学金
     design:
       columns: '1'
 ---
