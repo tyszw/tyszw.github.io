@@ -236,5 +236,5 @@ certification:
 
 ## About Me
 
-Under construction
+私は現在、横浜市立大学 生命医科学研究科 [生命情報科学研究室](https://ycu-iil.github.io/cls-lab.jp.github.io/)、理化学研究所 生命機能科学研究センター [制御分子設計研究チーム](https://www.bdr.riken.jp/ja/research/labs/honma-t/index.html)にて、AI創薬に関する研究を行っています。
 <!-- Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks. -->
