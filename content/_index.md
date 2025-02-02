@@ -32,14 +32,14 @@ sections:
           position: center
           parallax: false
 
-  - block: markdown
-    content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        Under construction😌
-    design:
-      columns: '1'
+  # - block: markdown
+  #   content:
+  #     title: 'My Research'
+  #     subtitle: ''
+  #     text: |-
+  #       Under construction
+  #   design:
+  #     columns: '1'
   
   # - block: collection
   #   id: papers
