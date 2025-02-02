@@ -98,7 +98,7 @@ education:
 work:
   - position: ジュニアリサーチアソシエイト
     company_name: 特定国立研究開発法人 理化学研究所
-    company_url: ''
+    company_url: 'https://www.riken.jp/'
     company_logo: ''
     date_start: 2024-04-01
     date_end: ''
@@ -106,7 +106,7 @@ work:
       - in silico創薬業務
   - position: インターンシップ
     company_name: 株式会社メタジェン
-    company_url: ''
+    company_url: 'https://metagen.co.jp/'
     company_logo: ''
     date_start: 2023-06-01
     date_end: ''
