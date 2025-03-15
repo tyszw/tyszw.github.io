@@ -12,7 +12,7 @@ date: '2025-03-01'
 publishDate: '2025-03-15T01:52:33.142403Z'
 publication_types:
 - article-journal
-publication: '*Nature Communications*'
+publication: '*Nature Communications*, 16, 2409'
 # doi: 10.1038/s41467-025-57582-3
 # doi: 10.1002/wcms.1680
 links:
