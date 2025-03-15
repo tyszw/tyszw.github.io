@@ -18,7 +18,7 @@ publication: '*Nature Communications*'
 links:
 - name: DOI
   url: https://doi.org/10.1038/s41467-025-57582-3
-- name: プレスリリース
+- name: プレスリリース：データ駆動型生成AIの限界に迫る －生成AIで信頼性の高い分子設計を実現する戦略－
   url: https://www.yokohama-cu.ac.jp/res-portal/news/2024/20250314terayama.html
 url_code: 'https://github.com/ycu-iil/DyRAMO'
 

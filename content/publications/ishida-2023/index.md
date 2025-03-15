@@ -18,7 +18,7 @@ publication: '*WIREs Computational Molecular Science*, 13, e1680'
 links:
 - name: DOI
   url: https://wires.onlinelibrary.wiley.com/doi/full/10.1002/wcms.1680
-- name: プレスリリース
+- name: プレスリリース：薬から材料まで様々な機能性分子を設計可能なAIを開発
   url: https://www.yokohama-cu.ac.jp/news/2023/20230818terayama.html
 url_code: 'https://github.com/molecule-generator-collection/ChemTSv2'
 
