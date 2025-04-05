@@ -50,7 +50,8 @@ sections:
       title: 'Scholarships'
       subtitle: ''
       text: |-
-        - 2024年度, 公益財団法人 中外創薬科学財団 奨学金
+        - 2024年度 公益財団法人 中外創薬科学財団 奨学金
+        - 2024年度 公益財団法人 首藤奨学財団 奨学金
     design:
       columns: '1'
 ---
