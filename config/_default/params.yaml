@@ -18,7 +18,7 @@ marketing:
     twitter: 'GetResearchDev'
   analytics:
     google_tag_manager: 'G-H56V9D26XG'
-    google_analytics: ''
+    google_analytics: 'G-H56V9D26XG'
     baidu_tongji: ''
     plausible: ''
     fathom: ''
