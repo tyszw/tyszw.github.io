@@ -17,6 +17,7 @@ marketing:
     description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
     twitter: 'GetResearchDev'
   analytics:
+    google_tag_manager: 'G-H56V9D26XG'
     google_analytics: ''
     baidu_tongji: ''
     plausible: ''
