@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PhD student / Jr. Research Associate
+role: Ph.D. student / Jr. Research Associate
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
