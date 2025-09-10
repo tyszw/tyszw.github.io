@@ -6,7 +6,7 @@ authors:
 - 大田雅照
 - 本間光貴
 - 寺山慧
-date: '2025-9-5'
+date: '2025-09-05'
 publishDate:
 # publication_types:
 # - paper-conference

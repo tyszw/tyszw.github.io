@@ -2,7 +2,7 @@
 title: '信頼性の高いデータ駆動型分子設計を実現するための戦略 DyRAMO の紹介'
 authors:
 - 吉澤竜哉
-date: '2025-8-21'
+date: '2025-08-21'
 publishDate:
 # publication_types:
 # - paper-conference
