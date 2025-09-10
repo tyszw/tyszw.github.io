@@ -11,3 +11,4 @@ publishDate:
 # publication_types:
 # - paper-conference
 publication: '第53回構造活性相関シンポジウム. 2025/9/5'
+---

@@ -7,3 +7,4 @@ publishDate:
 # publication_types:
 # - paper-conference
 publication: '第15回CBI若手の会講演会. 2025/8/21'
+---
