@@ -14,6 +14,6 @@ publishDate:
 # publication: '複数の特性予測モデルの信頼性を考慮した分子の多目的最適化. 第51回構造活性相関シンポジウム. 2023/11/21'
 publication: '第51回構造活性相関シンポジウム. 2023/11/21'
 links:
-- name: 受賞コメント
+- name: SAR Presentation Award受賞
   url: https://www.yokohama-cu.ac.jp/news/2023/20240131yoshizawa.html
 ---
