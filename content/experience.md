@@ -41,8 +41,8 @@ sections:
       title: 'Certifications'
       subtitle: ''
       text: |-
-        - 2022年12月, 基本情報技術者試験 合格, 独立行政法人情報処理推進機構 (IPA)
         - 2024年12月, 応用情報技術者試験 合格, 独立行政法人情報処理推進機構 (IPA)
+        - 2022年12月, 基本情報技術者試験 合格, 独立行政法人情報処理推進機構 (IPA)
     design:
       columns: '1'
   - block: markdown
