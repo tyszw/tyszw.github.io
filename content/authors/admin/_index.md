@@ -185,6 +185,13 @@ skills:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
+  - title: CBI学会2025年大会でBest Poster Awardを受賞
+    url: https://www.tsurumi.yokohama-cu.ac.jp/news/20251119yoshizawa.html
+    date: '2025-10-30'
+    awarder: 情報計算化学生物学会（CBI学会）
+    icon: ''
+    summary: |
+      2025年 10月27日(月)～30日(木)にタワーホール船堀（東京都江戸川区）で開催された「CBI学会2025年大会」において、Best Poster Awardを受賞しました。  
   - title: 第51回構造活性相関シンポジウムにて口頭発表賞(SAR Presentation Award)を受賞
     url: https://www.yokohama-cu.ac.jp/news/2023/20240131yoshizawa.html
     date: '2024-01-31'
