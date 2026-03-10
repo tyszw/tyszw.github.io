@@ -191,7 +191,7 @@ awards:
     awarder: 情報計算化学生物学会（CBI学会）
     icon: ''
     summary: |
-      2025年 10月27日(月)～30日(木)にタワーホール船堀（東京都江戸川区）で開催された「CBI学会2025年大会」において、Best Poster Awardを受賞しました。  
+      2025年 10月27日(月)～30日(木)にタワーホール船堀（東京都江戸川区）で開催されたCBI学会2025年大会において、Best Poster Awardを受賞しました。  
   - title: 第51回構造活性相関シンポジウムにて口頭発表賞(SAR Presentation Award)を受賞
     url: https://www.yokohama-cu.ac.jp/news/2023/20240131yoshizawa.html
     date: '2024-01-31'
