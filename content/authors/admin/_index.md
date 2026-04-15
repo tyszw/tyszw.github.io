@@ -185,6 +185,13 @@ skills:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
+  - title: YCU Student Award 2025を受賞
+    url: https://www.yokohama-cu.ac.jp/campuslife/StudentsYear/studentaward2025houkoku.html
+    date: '2026-03-18'
+    awarder: 横浜市立大学
+    icon: ''
+    summary: |
+      2025年における研究成果が評価され、YCU Student Award（旧学長賞）を受賞しました。
   - title: CBI学会2025年大会でBest Poster Awardを受賞
     url: https://www.tsurumi.yokohama-cu.ac.jp/news/20251119yoshizawa.html
     date: '2025-10-30'
