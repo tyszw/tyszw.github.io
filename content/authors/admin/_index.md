@@ -44,7 +44,7 @@ profiles:
     url: https://scholar.google.com/citations?user=OwZit5cAAAAJ&hl=ja
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-5074-6383
-  - icon: assets/media/icons/researchmap.png
+  - icon: assets/media/icons/researchmap
     url: https://researchmap.jp/tatsuya_yoshizawa
 
 interests:
