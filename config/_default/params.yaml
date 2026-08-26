@@ -18,8 +18,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    description: 'Academic profile of Tatsuya Yoshizawa, a Ph.D. student and junior research associate working on cheminformatics, artificial intelligence, and in silico drug discovery.'
+    twitter: ''
   analytics:
     google_tag_manager: 'G-H56V9D26XG'
     google_analytics: 'G-H56V9D26XG'
