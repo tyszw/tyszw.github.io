@@ -8,6 +8,10 @@ appearance:
   mode: system
   color: emerald
 
+# Publications
+publications:
+  citation_style: mla
+
 # SEO
 marketing:
   seo:

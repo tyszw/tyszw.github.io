@@ -16,7 +16,7 @@ date: '2026-08-21'
 publishDate: '2026-08-21T00:00:00Z'
 publication_types:
 - article-journal
-publication: '*Communications Chemistry* (2026)'
+publication: '*Communications Chemistry*'
 links:
 - name: DOI
   url: https://doi.org/10.1038/s42004-026-02172-7
