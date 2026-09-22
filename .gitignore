@@ -3,3 +3,6 @@
 /resources/
 /hugo_stats.json
 /.hugo_build.lock
+
+# macOS metadata
+.DS_Store

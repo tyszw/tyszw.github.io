@@ -1,0 +1,14 @@
+# Japanese navigation links
+main:
+  - name: Bio
+    url: /ja/
+    weight: 10
+  - name: Publications
+    url: /ja/#publications
+    weight: 11
+  - name: Talks
+    url: /ja/#talks
+    weight: 12
+  - name: Experience
+    url: /ja/experience/
+    weight: 20

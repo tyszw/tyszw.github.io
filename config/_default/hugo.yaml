@@ -12,9 +12,9 @@ baseURL: 'https://tyszw.github.io'
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en #jp
-hasCJKLanguage: false
-defaultContentLanguageInSubdir: false
+defaultContentLanguage: ja
+hasCJKLanguage: true
+defaultContentLanguageInSubdir: true
 removePathAccents: true
 
 ############################

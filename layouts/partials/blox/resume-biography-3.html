@@ -98,15 +98,11 @@
 
     <div class="portrait-title dark:text-white">
 
-      <div class="text-3xl font-bold mb-2 mt-6">
-        {{- if $person.name_pronunciation -}}
-          <ruby>
-            <rb>{{ $person_page.Title }}</rb>
-            <rt>{{ $person.name_pronunciation }}</rt>
-          </ruby>
-        {{- else -}}
-          {{- $person_page.Title -}}
-        {{- end -}}
+      <div class="mb-2 mt-6">
+        {{ with $person.name_pronunciation }}
+          <div class="text-base font-semibold leading-tight mb-1">{{ . }}</div>
+        {{ end }}
+        <div class="text-3xl font-bold leading-tight">{{ $person_page.Title }}</div>
       </div>
 
       {{ with $person.role }}<h3 class="font-semibold mb-1">{{ . | markdownify | emojify }}</h3>{{ end }}

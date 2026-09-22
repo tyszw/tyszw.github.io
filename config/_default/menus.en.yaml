@@ -1,0 +1,14 @@
+# English navigation links
+main:
+  - name: Bio
+    url: /en/
+    weight: 10
+  - name: Publications
+    url: /en/#publications
+    weight: 11
+  - name: Talks
+    url: /en/#talks
+    weight: 12
+  - name: Experience
+    url: /en/experience/
+    weight: 20

@@ -2,26 +2,22 @@
 #   Create a section for each of your site's languages.
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
-# Default language
-# ja:
-#   languageCode: ja
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/ja
+ja:
+  languageCode: ja-JP
+  languageName: 日本語
+  contentDir: content/ja
+  weight: 1
+  params:
+    marketing:
+      seo:
+        description: 'ケモインフォマティクス、人工知能、インシリコ創薬を研究する、吉澤竜哉の研究者プロフィールです。'
 
 en:
-  languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
-
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+  languageCode: en-US
+  languageName: English
+  contentDir: content/en
+  weight: 2
+  params:
+    marketing:
+      seo:
+        description: 'Academic profile of Tatsuya Yoshizawa, a Ph.D. student and junior research associate working on cheminformatics, artificial intelligence, and in silico drug discovery.'
