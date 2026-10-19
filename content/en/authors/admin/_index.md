@@ -187,6 +187,13 @@ skills:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
+  - title: Excellent Student Abstract Award at the CBI Annual Meeting 2026
+    url: https://cbi-society.org/taikai/taikai26/document/award_Excellent_Student_Abstract_Award.pdf
+    date: '2026-09-13'
+    awarder: Chem-Bio Informatics Society
+    icon: ''
+    summary: |
+      Received the Excellent Student Abstract Award at the CBI Annual Meeting 2026 for the abstract “Can General-Purpose LLMs Edit Molecules Like Medicinal Chemists?” (P09-19).
   - title: YCU Student Award 2025
     url: https://www.yokohama-cu.ac.jp/campuslife/StudentsYear/studentaward2025houkoku.html
     date: '2026-03-18'
