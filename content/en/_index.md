@@ -65,13 +65,18 @@ sections:
     design:
       view: citation
 
-  - block: collection
+  - block: talks
     id: talks
     content:
       title: Talks
-      filters:
-        folders:
-          - event
+      count: 5
+      groups:
+        - title: Presentations
+          tag: presenter
+        - title: Invited Talks
+          tag: invited
+        - title: Co-authored Presentations
+          tag: coauthor
     design:
       view: citation
       # view: article-grid

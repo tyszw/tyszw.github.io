@@ -187,6 +187,13 @@ skills:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
+  - title: CBI学会2026年大会でポスター賞（Excellent Poster Awards）を受賞
+    url: https://cbi-society.org/taikai/taikai26/document/2026award_poster_best_like.pdf
+    date: '2026-10-29'
+    awarder: 情報計算化学生物学会（CBI学会）
+    icon: ''
+    summary: |
+      CBI学会2026年大会において、演題「Can General-Purpose LLMs Edit Molecules Like Medicinal Chemists?」（P09-19）でポスター賞（Excellent Poster Awards）を受賞しました。
   - title: CBI学会2026年大会で学生発表奨励賞を受賞
     url: https://cbi-society.org/taikai/taikai26/document/award_Excellent_Student_Abstract_Award.pdf
     date: '2026-09-13'

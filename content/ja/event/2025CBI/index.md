@@ -8,6 +8,8 @@ authors:
 - Kei Terayama
 date: '2025-10-28'
 publishDate:
+tags:
+- presenter
 # publication_types:
 # - paper-conference
 # publication: 'Molecule Generation with Boltz-2: A Case Study on Kinase Inhibitor Design. CBI学会2025年大会 2025/10/28'

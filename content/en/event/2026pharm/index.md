@@ -8,6 +8,8 @@ authors:
 - Kei Terayama
 date: '2026-03-27'
 publishDate:
+tags:
+- presenter
 # publication_types:
 # - paper-conference
 publication: '146th Annual Meeting of the Pharmaceutical Society of Japan. 2026/3/27'

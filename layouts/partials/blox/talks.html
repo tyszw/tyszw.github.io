@@ -1,0 +1,59 @@
+{{/* Talks block with presentation-role subsections. */}}
+
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $view := $block.design.view | default "citation" }}
+
+{{ $items_count := $block.content.count | default 5 }}
+{{ if eq $items_count 0 }}
+  {{ $items_count = 65535 }}
+{{ end }}
+
+{{ with $block.content.title }}
+  <div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6 md:px-0">
+    <h2 class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+      {{ . | emojify | $page.RenderString }}
+    </h2>
+  </div>
+{{ end }}
+
+<div class="flex flex-col items-center px-6">
+  <div class="container max-w-3xl w-full">
+    {{ range $group_index, $group := $block.content.groups }}
+      {{ $archive_page := site.GetPage (printf "tags/%s" (urlize $group.tag)) }}
+      {{ $query := where site.RegularPages "Section" "event" }}
+      {{ with $archive_page }}
+        {{ $query = $query | intersect .Pages }}
+      {{ else }}
+        {{ $query = slice }}
+      {{ end }}
+
+      {{ $query = sort $query "Date" "desc" }}
+      {{ $count := len $query }}
+      {{ $query = first $items_count $query }}
+      {{ $config := dict "columns" 1 "len" (len $query) "fill_image" true }}
+
+      <section{{ if gt $group_index 0 }} class="mt-16"{{ end }}>
+        <h3 class="text-2xl font-bold text-gray-900 dark:text-white">
+          {{ $group.title | emojify | $page.RenderString }}
+        </h3>
+
+        <div class="mt-8 flex flex-col space-y-3">
+          {{ range $index, $item := $query }}
+            {{ partial "functions/render_view" (dict "page" $block "item" . "view" $view "index" $index "config" $config) }}
+          {{ end }}
+        </div>
+
+        {{ if and (gt $count $items_count) $archive_page }}
+          <div class="mt-10 flex justify-center">
+            <a
+              class="relative inline-flex items-center gap-1 rounded-md border border-gray-300 bg-white px-3 py-2 pl-4 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-20 dark:border-gray-500 dark:bg-gray-800 dark:text-gray-300"
+              href="{{ $archive_page.RelPermalink }}">
+              <span>{{ i18n "more_talks" | default "See all" }}</span>
+            </a>
+          </div>
+        {{ end }}
+      </section>
+    {{ end }}
+  </div>
+</div>

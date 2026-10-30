@@ -7,6 +7,8 @@ authors:
 - Kei Terayama
 date: '2021-11-18'
 publishDate:
+tags:
+- presenter
 # publication_types:
 # - paper-conference
 # publication: 'Dscoreに基づく多目的最適化によるChemTSを用いた選択性阻害剤の設計. 第49回構造活性相関シンポジウム. 2021/11/18'

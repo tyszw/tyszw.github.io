@@ -9,6 +9,8 @@ authors:
 - 寺山慧
 date: '2023-11-21'
 publishDate:
+tags:
+- presenter
 # publication_types:
 # - paper-conference
 # publication: '複数の特性予測モデルの信頼性を考慮した分子の多目的最適化. 第51回構造活性相関シンポジウム. 2023/11/21'

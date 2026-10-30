@@ -8,6 +8,8 @@ authors:
 - 寺山慧
 date: '2026-03-27'
 publishDate:
+tags:
+- presenter
 # publication_types:
 # - paper-conference
 publication: '日本薬学会第146年会. 2026/3/27'
